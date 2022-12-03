@@ -13,8 +13,8 @@ struct TechImageApp: App {
     
     var body: some Scene {
         WindowGroup {
-            // ContentViewを最初の画面に設定
-            ContentView()
+            // Albumを最初の画面に設定
+            Album()
         }
     }
 }
