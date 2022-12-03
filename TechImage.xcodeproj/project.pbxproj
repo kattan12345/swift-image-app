@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		3C0751C7293B6E0E0050F1BB /* TechImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0751B7293B6E060050F1BB /* TechImageApp.swift */; };
 		3C0751C8293B6E0E0050F1BB /* TechImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0751B7293B6E060050F1BB /* TechImageApp.swift */; };
-		3C0751C9293B6E0E0050F1BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0751B8293B6E060050F1BB /* ContentView.swift */; };
-		3C0751CA293B6E0E0050F1BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0751B8293B6E060050F1BB /* ContentView.swift */; };
 		3C0751CB293B6E0E0050F1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0751B9293B6E0D0050F1BB /* Assets.xcassets */; };
 		3C0751CC293B6E0E0050F1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0751B9293B6E0D0050F1BB /* Assets.xcassets */; };
 		3C0751D7293B76DC0050F1BB /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0751D6293B76DC0050F1BB /* Album.swift */; };
@@ -18,7 +16,6 @@
 
 /* Begin PBXFileReference section */
 		3C0751B7293B6E060050F1BB /* TechImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechImageApp.swift; sourceTree = "<group>"; };
-		3C0751B8293B6E060050F1BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C0751B9293B6E0D0050F1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C0751BE293B6E0E0050F1BB /* TechImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0751C4293B6E0E0050F1BB /* TechImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +57,6 @@
 			children = (
 				3C0751B7293B6E060050F1BB /* TechImageApp.swift */,
 				3C0751D6293B76DC0050F1BB /* Album.swift */,
-				3C0751B8293B6E060050F1BB /* ContentView.swift */,
 				3C0751B9293B6E0D0050F1BB /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -181,7 +177,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C0751C9293B6E0E0050F1BB /* ContentView.swift in Sources */,
 				3C0751C7293B6E0E0050F1BB /* TechImageApp.swift in Sources */,
 				3C0751D7293B76DC0050F1BB /* Album.swift in Sources */,
 			);
@@ -191,7 +186,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C0751CA293B6E0E0050F1BB /* ContentView.swift in Sources */,
 				3C0751C8293B6E0E0050F1BB /* TechImageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
