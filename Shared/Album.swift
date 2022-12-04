@@ -14,6 +14,7 @@ struct Album: View {
             VStack {
                 Text("全ての項目")
                 Text("お気に入り")
+                AlbumView(name: "aaa", path: "", isFavorite: true)
             }
             
             .navigationBarTitle(Text("アルバム"))
