@@ -40,7 +40,7 @@ struct AlbumView: View {
                 }
                 
                 // お気に入りの場合
-                if self.isFavorite == true {
+                if self.isFavorite {
                     Image(systemName: "heart.fill")
                         .frame(width: 100, height: 100, alignment: .bottomLeading)
                         .foregroundColor(.pink)
