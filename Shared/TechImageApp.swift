@@ -11,10 +11,13 @@ import SwiftUI
 struct TechImageApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
+    @StateObject private var userData = UserData()
+    
     var body: some Scene {
         WindowGroup {
             // Albumを最初の画面に設定
             Album()
+                .environmentObject(userData)
         }
     }
 }
