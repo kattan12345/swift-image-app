@@ -14,7 +14,6 @@ struct ImageInfo: Identifiable {
     var path: String
     var isFavorite: Bool
     
-    
 }
 
 let imageInfos: [ImageInfo] = loadImageInfos()

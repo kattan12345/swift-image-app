@@ -7,7 +7,10 @@
 
 import SwiftUI
 
+// AlbumViewはAlbumの子ビューに該当する。(EnvironmentObjectでUserDataを使用できる)
 struct AlbumView: View {
+    
+    @EnvironmentObject private var userData: UserData
     
     let name: String
     let path: String
@@ -55,11 +58,11 @@ struct AlbumView: View {
             .foregroundColor(.primary)
         
         Group {
-            if self.isFavorite {
+            if self.isFavorite == true {
                 Text("0")
             }
             else {
-                Text("0")
+                Text(String(self.userData.images.count))
             }
         }
         .foregroundColor(.primary)
@@ -68,6 +71,6 @@ struct AlbumView: View {
 
 struct AlbumView_Previews: PreviewProvider {
     static var previews: some View {
-        AlbumView(name: "お気に入り", path: "", isFavorite: true)
+        AlbumView(name: "お気に入り", path: "", isFavorite: true).environmentObject(UserData())
     }
 }
